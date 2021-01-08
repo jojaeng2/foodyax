@@ -1,0 +1,32 @@
+.nav-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+.nav-bar__ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-bar__btn{
+  position: relative;
+  padding: 6px 12px;
+}
+.nav-bar__btn::after{
+  content: "";
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 4px;
+  position: absolute;
+  transform: translateX(-50%);
+  background: #64AAFF;
+  transition: all .4s ease-out;
+}
+.nav-bar__btn:hover::after{
+  width: 100%;
+}
