@@ -1,0 +1,133 @@
+.screen-header{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 40px;
+  background-color: #64AAFF;
+  border-radius: 40px;
+  padding: 10px;
+}
+.screen-header:hover >.screen-header__txt{
+  width: 240px;
+  padding: 0 6px;
+}
+.search-btn{
+  color:white;
+  float: right;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  background-color: #64AAFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.search-btn i{
+  font-size: 30px;
+}
+.screen-header__txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  font-weight: bold;
+}
+
+.feed-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.feed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feed-item__img img{
+  width: 200px;
+  height: 200px;
+  margin: 0 0;
+}
+.feed-wrapper__two{
+  height: 0;
+}
+.feed-item{
+  flex-basis: 200px;
+  flex-shrink: 0;
+  margin: 0 10px;
+  transition: all .4s ease-in-out;
+}
+.feed-item__img{
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+.feed-item__contents{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+}
+.feed-item__img::before{
+  content:' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+}
+.feed-item__contents{
+  font-size: 17px;
+}
+.feed-item__contents{
+  display: block;
+  font-size: 14px;
+}
+.feed-item__contents button{
+  overflow: hidden;
+  transition: all .4s ease-in-out;
+  opacity: 0;
+}
+.feed-item:hover{
+  flex-basis:250px;
+  margin: 0 20px;
+}
+.feed-item:hover .feed-item__contents button{
+  opacity: 1;
+}
+.feed-item__img img{
+  width: 100%;
+  height: 100%;
+}
+
+.btn-secondary {
+    text-align: center;
+    background: #ed2553;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease-in-out;
+}
+.btn-secondary:hover {
+    transform: translateY(10px);
+}
+.btn-secondary:focus{
+  background-color: #64AAFF;
+}

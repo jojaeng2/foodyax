@@ -1,0 +1,80 @@
+.wrapper{
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-color: white;
+  color: white;
+}
+.team-item:hover{
+  flex-basis: 250px;
+  margin: 0 20px;
+}
+.team-item:hover .profile-contents p{
+  max-height: 200px;
+  opacity: 1;
+}
+.team-item{
+  flex-basis: 200px;
+  flex-shrink: 0;
+  margin: 0 10px;
+    transition: all .4s ease-in-out;
+}
+.team-item img{
+  width:100%;
+}
+.profile{
+  background-color: #222;
+  position: relative;
+  overflow: hidden;
+}
+.profile::before{
+  content:' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+}
+
+.profile-contents{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.profile-contents h2{
+  font-size: 20px;
+}
+.profile-contents h2 span{
+  display: block;
+  font-size: 12px;
+}
+
+.profile-contents p{
+  color:white;
+  font-size: 14px;
+  min-width: 150px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .4s;
+  opacity: 0;
+}
+
+.profile-black{
+  color: black;
+}
+.profile-white{
+  color:white;
+}
+.profile-beige{
+  color:beige;
+}
