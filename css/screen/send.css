@@ -38,7 +38,7 @@
 }
 .send-main__submit:hover{
   box-shadow: 200px 0 0 0 rgba(0,0,0,0.5);
-  background-color: tomato;
+  background-color: #64AAFF;
   color: white;
   transform: rotateY(-30deg;);
 }
