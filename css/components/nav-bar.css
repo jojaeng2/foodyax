@@ -46,3 +46,19 @@
     transform: none;
   }
 }
+.feed-icon{
+  color: #64AAFF;
+}
+.like-icon{
+  color: #64AAFF;
+}
+.envelope-icon{
+  color: #64AAFF;
+}
+.my-icon{
+  color: #64AAFF;
+}
+.feed-icon:hover{
+  color: #64AAFF;
+  transition: all .4s;
+}
