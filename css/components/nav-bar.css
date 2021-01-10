@@ -30,3 +30,19 @@
 .nav-bar__btn:hover::after{
   width: 100%;
 }
+.nav-bar__link .fa-envelope{
+  padding-bottom: 8px;
+  animation: fa-envelopeAnimation .3s ease-in-out infinite;
+}
+
+@keyframes fa-envelopeAnimation {
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: none;
+  }
+}

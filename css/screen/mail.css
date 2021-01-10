@@ -1,0 +1,42 @@
+.mail-header{
+  display: flex;
+  margin: 40px 20px;
+  justify-content: flex-end;
+  align-items: center;
+  color: tomato;
+}
+.mail-header__send{
+  padding-top: 7px;
+}
+.mail-header__send .fa-envelope{
+  margin-left: 15px;
+}
+.mail-header__receive .fa-envelope-open{
+  margin-left: 20px;
+}
+.mail-status {
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mail-profile img{
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+}
+.mail-profile{
+  display: flex;
+  align-items: center;
+}
+.mail-profile__chat{
+  padding-left: 20px;
+}
+.mail-profile__chat-person{
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.mail-profile__chat-span{
+  color: rgba(0,0,0,0.6);
+}

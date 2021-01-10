@@ -111,9 +111,9 @@
   height: 100%;
 }
 
-.btn-secondary {
+.btn-third {
     text-align: center;
-    background: #ed2553;
+    background: #64AAFF;
     border-radius: 3px;
     box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
     padding: 8px 14px;
@@ -126,9 +126,9 @@
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease-in-out;
 }
-.btn-secondary:hover {
+.btn-third:hover {
     transform: translateY(10px);
 }
-.btn-secondary:focus{
-  background-color: #64AAFF;
+.btn-third:focus{
+  background-color: #ed2553;
 }
