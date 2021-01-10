@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=divice-width, initial-scale=1.0"/>
+  <title>Mail - FoodYax</title>
+</head>
+<body>
+
+
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>Wi-Fi</span>
+      <i class="fas fa-wifi fa-lg"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>00:00</span>
+    </div>
+    <div class="status-bar__column">
+      <i class="fas fa-volume-down fa-lg"></i>
+      <span>100%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt fa-lg"></i>
+    </div>
+  </div>
+
+  <nav class="nav-bar">
+    <ul class="nav-bar__ul">
+      <li class="nav-bar__btn">
+        <a class="nav-bar__link" href="feed.html">
+          <i class="fas fa-home fa-2x">
+          </i>
+        </a>
+      </li>
+      <li class="nav-bar__btn">
+        <a class="nav-bar__link" href="like.html">
+          <i class="fas fa-heart fa-2x">
+          </i>
+        </a>
+      </li>
+      <li class="nav-bar__btn">
+        <a class="nav-bar__link" href="mail.html">
+          <i class="fas fa-envelope envelope-icon fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav-bar__btn">
+        <a class="nav-bar__link" href="my.html">
+          <i class="fas fa-user-alt fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class = "send-header">
+  <a href="mail.html"><i class="fas fa-arrow-left fa-2x"></i>
+  </a>
+  <header class="mail-header">
+    <div class="mail-header__send">
+      <a href="send.html">
+      <i class="fas fa-paper-plane fa-2x"></i>
+      </a>
+      <i class="fas fa-envelope fa-2x"></i>
+    </div>
+    <div class="mail-header__receive">
+      <i class="fas fa-envelope-open fa-2x"></i>
+    </div>
+  </header>
+</div>
+
+  <form action="send.html" class="send-main">
+    <input class="send-main__name" type="text" placeholder="@Recipient">
+    <input class="send-main__text" type="text" placeholder="What to send">
+    <input class="send-main__submit" type="submit" value="send">
+  </form>
+
+  <script src="https://kit.fontawesome.com/b3b0f72b7e.js" crossorigin="anonymous"></script>
+</html>

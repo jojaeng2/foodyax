@@ -1,0 +1,44 @@
+.send-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-arrow-left{
+  margin-left: 20px;
+  color: #64AAFF;
+}
+.send-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.send-main__name{
+  width: 80%;
+  height: 60px;
+  margin: 20px 20px;
+  background-color: rgba(0,0,0,0.05);
+}
+.send-main__text{
+  width: 80%;
+  height: 200px;
+  margin: 20px 20px;
+  background-color: rgba(0,0,0,0.05);
+}
+.send-main__submit{
+  width: 30%;
+  height: 60px;
+  margin: 20px 20px;
+  transition: all 0.9s;
+}
+.send-main input{
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.send-main__submit:hover{
+  box-shadow: 200px 0 0 0 rgba(0,0,0,0.5);
+  background-color: tomato;
+  color: white;
+  transform: rotateY(-30deg;);
+}
