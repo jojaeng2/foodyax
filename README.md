@@ -9,7 +9,7 @@
 ##  :two: Technology stack
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white"/> 
 ##  :three: Trouble
-  :unlock: 처음으로 마주친 Error들  
+  :unlock: 처음으로 마주쳐본 Error들  
   :key: 구글링을 통해 최대한 나와 비슷한 Error Log를 마주친 사람들을 찾았고, 코드를 따라해보며 문제를 해결하였다.  
     
   :unlock: 동적인 CSS animaion  
